@@ -1,7 +1,7 @@
 class Tester {
     public static void main(String[] args){
         double d1 = 37.9; //Initialize these variables at the top of your program 
-        double d2 = 1004.128; 
+        // Part of textbook code, but never used: double d2 = 1004.128; 
         int i1 = 12; 
         int i2 = 18; 
 
