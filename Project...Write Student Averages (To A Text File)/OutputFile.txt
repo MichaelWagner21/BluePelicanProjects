@@ -1,0 +1,5 @@
+Agnes, average = 76
+Bufford, average = 91
+Julie, average = 94
+Alice, average = 39
+Bobby, average = 93
