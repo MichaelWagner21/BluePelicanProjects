@@ -16,8 +16,9 @@ class Main {
 }
 
 class Crypto {
-    private String 
-    public Crypto(String inputString){
-
+    public Crypto(){
+    }
+    public static String encrypt(String inputString){
+        return inputString.replace('','')
     }
 }
