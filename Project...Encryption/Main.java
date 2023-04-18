@@ -18,7 +18,35 @@ class Main {
 class Crypto {
     public Crypto(){
     }
-    public static String encrypt(String inputString){
-        return inputString.replace('','')
+    public String encrypt(String inputString){
+        String returnString = "";
+        for (int i = 0; i<inputString.length();i++){
+            if (inputString.charAt(i) == 'g'){
+                returnString=returnString+"jeb..w";
+            }
+            else if (inputString.charAt(i) == 'v'){
+                returnString+="ag',r";
+            }
+            else if (inputString.charAt(i) == 'm'){
+                returnString+="ssad";
+            }
+            else if (inputString.charAt(i) == 'b'){
+                returnString+="dug>?/";
+            }
+            else if (inputString.charAt(i) == 'g'){
+                returnString+="jeb..w";
+            }
+            else {
+                returnString+=inputString.charAt(i);
+            }
+        }
+        return returnString;
+    }
+    public String decrypt(String inputString){
+        String returnString = inputString.replace("ag',r","v");
+        returnString = returnString.replace("ssad","m");
+        returnString = returnString.replace("jeb..w","g");
+        returnString = returnString.replace("dug>?/","b");
+        return returnString;
     }
 }
